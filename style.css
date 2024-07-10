@@ -43,7 +43,7 @@ header .hero{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url(/assingment-1/assets/Hero-bg.png);
+    background-image: url(/assingment-1/Hero-bg.png);
     gap: 5rem;
 }
 header .hero h1{
