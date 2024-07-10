@@ -7,8 +7,12 @@
     text-decoration: none;
     font-family: "Azeret Mono", monospace;
 }
+button{
+    cursor: pointer;
+}
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 .container{
@@ -157,3 +161,117 @@ opacity: 0.7;
     border-radius: 10px;
 }
 /* end of inspiration section */
+.section-target{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem;
+}
+.section-target .headings{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    text-align: center;
+}
+.section-target .headings h3{
+    font-size: 2.4rem;
+
+}
+.section-target .headings p{
+    font-size: 1.4rem ;
+    opacity: 0.7;
+}
+.section-target .contents{
+    display: flex;
+    padding: 4rem 2rem;
+    gap: 6rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.section-target .contents .box{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 25rem;
+    width: 20rem;
+    justify-content: center;
+    padding: 0 2rem;
+}
+.section-target .contents .box:nth-child(1){
+    background-color: #ff4b1e14;
+}
+.section-target .contents .box:nth-child(2){
+    background-color: #004de817;
+}
+.section-target .contents .box:nth-child(3){
+    background-color: #ffdd0016;
+}
+.section-target .contents .box img{
+    width: 5rem;
+    justify-content: start;
+}
+.section-target .contents .box h4{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.section-target .contents .box p{
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+.section-target .contents .box button{
+    border: none;
+    text-decoration:underline;
+    background-color: transparent;
+    font-weight: 500;
+}
+/* support section */
+.section-support{
+    width: 100%;
+    height: 30rem;
+    margin: 5rem auto;
+    background-image:linear-gradient(to right bottom, rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.147)), url(/assingment-1/B10A1-Challenge-Begins/assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.section-support h2{
+    color: white;
+    font-weight: 600;
+    font-size: 3.2rem;
+}
+.section-support p{
+    color: white;
+    font-size: 1.4rem;
+}
+.section-support input{
+    width: 50rem;
+    height: 5rem;
+    outline: none;
+    padding: 0 2rem;
+
+}
+.section-support button{
+    padding: 1.7rem 3rem;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+footer{
+    width: 100%;
+    height: 5rem;
+    margin: 2rem auto;
+    background-color: rgba(128, 128, 128, 0.093);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    font-size: 1.6rem;
+
+}
